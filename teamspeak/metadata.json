@@ -1,0 +1,42 @@
+{
+  "providing": {
+    "teamspeak": [
+
+    ]
+  },
+  "long_description": "",
+  "replacing": {
+
+  },
+  "license": "Apache 2.0",
+  "maintainer": "Opscode, Inc.",
+  "attributes": {
+
+  },
+  "recommendations": {
+
+  },
+  "recipes": {
+    "teamspeak": ""
+  },
+  "dependencies": {
+    "php": [
+
+    ]
+  },
+  "maintainer_email": "cookbooks@opscode.com",
+  "suggestions": {
+
+  },
+  "platforms": {
+    "ubuntu": [
+
+    ]
+  },
+  "description": "Installs teamspeak and enables service",
+  "name": "teamspeak",
+  "version": "0.8.0",
+  "conflicting": {
+
+  }
+}

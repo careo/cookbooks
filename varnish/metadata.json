@@ -1,0 +1,43 @@
+{
+  "providing": {
+    "varnish": [
+
+    ]
+  },
+  "long_description": "",
+  "replacing": {
+
+  },
+  "license": "Apache 2.0",
+  "maintainer": "Opscode, Inc.",
+  "attributes": {
+
+  },
+  "recommendations": {
+
+  },
+  "recipes": {
+    "varnish": ""
+  },
+  "dependencies": {
+
+  },
+  "maintainer_email": "cookbooks@opscode.com",
+  "suggestions": {
+
+  },
+  "platforms": {
+    "debian": [
+
+    ],
+    "ubuntu": [
+
+    ]
+  },
+  "description": "Instsalls and configures varnish",
+  "name": "varnish",
+  "version": "0.7.0",
+  "conflicting": {
+
+  }
+}

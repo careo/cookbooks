@@ -1,0 +1,49 @@
+{
+  "providing": {
+    "emacs": [
+
+    ]
+  },
+  "long_description": "",
+  "replacing": {
+
+  },
+  "license": "Apache 2.0",
+  "maintainer": "Opscode, Inc.",
+  "attributes": {
+
+  },
+  "recommendations": {
+
+  },
+  "recipes": {
+    "emacs": ""
+  },
+  "dependencies": {
+
+  },
+  "maintainer_email": "cookbooks@opscode.com",
+  "suggestions": {
+
+  },
+  "platforms": {
+    "debian": [
+
+    ],
+    "centos": [
+
+    ],
+    "ubuntu": [
+
+    ],
+    "redhat": [
+
+    ]
+  },
+  "description": "Installs emacs",
+  "name": "emacs",
+  "version": "0.7.0",
+  "conflicting": {
+
+  }
+}

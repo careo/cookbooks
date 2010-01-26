@@ -1,0 +1,40 @@
+{
+  "providing": {
+    "apparmor": [
+
+    ]
+  },
+  "long_description": "",
+  "replacing": {
+
+  },
+  "license": "Apache 2.0",
+  "maintainer": "Opscode, Inc.",
+  "attributes": {
+
+  },
+  "recommendations": {
+
+  },
+  "recipes": {
+    "apparmor": ""
+  },
+  "dependencies": {
+
+  },
+  "maintainer_email": "cookbooks@opscode.com",
+  "suggestions": {
+
+  },
+  "platforms": {
+    "ubuntu": [
+
+    ]
+  },
+  "description": "Disables apparmor service on Ubuntu",
+  "name": "apparmor",
+  "version": "0.8.0",
+  "conflicting": {
+
+  }
+}

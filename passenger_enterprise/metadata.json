@@ -1,0 +1,56 @@
+{
+  "providing": {
+    "passenger_enterprise": [
+
+    ],
+    "passenger_enterprise::nginx": [
+
+    ],
+    "passenger_enterprise::apache2": [
+
+    ]
+  },
+  "long_description": "= DESCRIPTION:\n\n= REQUIREMENTS:\n\n= ATTRIBUTES:\n\n= USAGE:\n\n",
+  "replacing": {
+
+  },
+  "license": "Apache 2.0",
+  "maintainer": "Opscode, Inc.",
+  "attributes": {
+
+  },
+  "recommendations": {
+
+  },
+  "recipes": {
+    "passenger_enterprise": "",
+    "passenger_enterprise::nginx": "",
+    "passenger_enterprise::apache2": ""
+  },
+  "dependencies": {
+    "nginx": [
+
+    ],
+    "apache2": [
+
+    ],
+    "ruby_enterprise": [
+
+    ]
+  },
+  "maintainer_email": "ops@opscode.com",
+  "suggestions": {
+
+  },
+  "platforms": {
+    "ubuntu": [
+
+    ]
+  },
+  "description": "Installs and configures Passenger under Ruby Enterprise Edition with Apache",
+  "name": "passenger_enterprise",
+  "version": "0.2.0",
+  "conflicting": {
+
+  }
+}

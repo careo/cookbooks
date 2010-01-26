@@ -1,0 +1,52 @@
+{
+  "providing": {
+    "ec2": [
+
+    ]
+  },
+  "long_description": "",
+  "replacing": {
+
+  },
+  "license": "Apache 2.0",
+  "maintainer": "Opscode, Inc.",
+  "attributes": {
+    "ec2_metadata": {
+      "required": false,
+      "type": "string",
+      "recipes": [
+
+      ],
+      "description": "Retrieve EC2 instance metadata",
+      "multiple_values": false,
+      "display_name": "EC2 Metadata"
+    }
+  },
+  "recommendations": {
+
+  },
+  "recipes": {
+    "ec2": ""
+  },
+  "dependencies": {
+
+  },
+  "maintainer_email": "cookbooks@opscode.com",
+  "suggestions": {
+
+  },
+  "platforms": {
+    "debian": [
+
+    ],
+    "ubuntu": [
+
+    ]
+  },
+  "description": "Manage EC2 metadata as attributes",
+  "name": "ec2",
+  "version": "0.9.0",
+  "conflicting": {
+
+  }
+}
