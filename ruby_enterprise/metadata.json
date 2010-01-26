@@ -11,7 +11,65 @@
   "license": "Apache 2.0",
   "maintainer": "Opscode, Inc.",
   "attributes": {
+    "ruby_enterprise/install_path": {
+      "required": false,
+      "default": "/opt/ruby-enterprise",
+      "type": "string",
+      "recipes": [
 
+      ],
+      "multiple_values": false,
+      "display_name": "Install Path"
+    },
+    "ruby_enterprise/ruby_bin": {
+      "required": false,
+      "default": "/opt/ruby-enterprise/bin/ruby",
+      "type": "string",
+      "recipes": [
+
+      ],
+      "multiple_values": false,
+      "display_name": "Ruby bin"
+    },
+    "ruby_enterprise/gems_dir": {
+      "required": false,
+      "default": "/opt/ruby-enterprise/lib/ruby/gems/1.8",
+      "type": "string",
+      "recipes": [
+
+      ],
+      "multiple_values": false,
+      "display_name": "Gems Dir"
+    },
+    "ruby_enterprise/url": {
+      "required": false,
+      "default": "http://rubyforge.org/frs/download.php/66162/ruby-enterprise-1.8.7-2009.10",
+      "type": "string",
+      "recipes": [
+
+      ],
+      "multiple_values": false,
+      "display_name": "url"
+    },
+    "ruby_enterprise/version": {
+      "required": false,
+      "default": "1.8.7-2009.10",
+      "type": "string",
+      "recipes": [
+
+      ],
+      "multiple_values": false,
+      "display_name": "Version"
+    },
+    "ruby_enterprise": {
+      "required": false,
+      "type": "hash",
+      "recipes": [
+
+      ],
+      "multiple_values": false,
+      "display_name": "Ruby Enterprise Edition options"
+    }
   },
   "recommendations": {
 
