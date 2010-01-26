@@ -20,8 +20,8 @@
 
   },
   "recipes": {
-    "imagemagick::rmagick": "",
-    "imagemagick": ""
+    "imagemagick": "",
+    "imagemagick::rmagick": ""
   },
   "dependencies": {
 

@@ -17,8 +17,8 @@
 
   },
   "recipes": {
-    "ssh_known_hosts": "",
-    "ssh_known_hosts::default": "Dyanmically generates /etc/ssh/known_hosts based on search indexes"
+    "ssh_known_hosts::default": "Dyanmically generates /etc/ssh/known_hosts based on search indexes",
+    "ssh_known_hosts": ""
   },
   "dependencies": {
 

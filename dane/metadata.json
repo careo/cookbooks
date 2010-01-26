@@ -1,6 +1,6 @@
 {
   "providing": {
-    "glassfish": [
+    "dane": [
 
     ]
   },
@@ -9,7 +9,7 @@
 
   },
   "license": "Apache 2.0",
-  "maintainer": "Opscode, Inc.",
+  "maintainer": "Dane Jensen",
   "attributes": {
 
   },
@@ -17,32 +17,22 @@
 
   },
   "recipes": {
-    "glassfish": "",
-    "glassfish": "Main Glassfish configuration"
+    "dane": ""
   },
   "dependencies": {
+    "zsh": [
 
+    ]
   },
-  "maintainer_email": "cookbooks@opscode.com",
+  "maintainer_email": "dane@rightscale.com",
   "suggestions": {
 
   },
   "platforms": {
-    "debian": [
 
-    ],
-    "centos": [
-
-    ],
-    "ubuntu": [
-
-    ],
-    "redhat": [
-
-    ]
   },
-  "description": "Installs/Configures Glassfish",
-  "name": "glassfish",
+  "description": "Installs/Configures Misc Crap for Dane",
+  "name": "dane",
   "version": "0.1.0",
   "conflicting": {
 
