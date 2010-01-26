@@ -14,6 +14,10 @@ user "djensen" do
   #password "$1$JJsvHslV$szsCjVEroftprNn4JHtDi."
 end
 
+mount "/opt" do
+  device "/dev/sdj"
+  fstype "xfs"
+end
 
 bash "do stuff" do
   user "root"
@@ -33,9 +37,10 @@ bash "do stuff" do
   apt-get update
 
   # setup zsh
-  cp zshrc ~/.zshrc
+  cp zshrc /root/.zshrc
   sed -i /etc/passwd -e 's/root:x:0:0:root:\/root:\/bin\/bash/root:x:0:0:root:\/root:\/usr\/bin\/zsh/'
   EOH
+  not_if { File.exists?("/root/.zshrc") }
 end
 
 
