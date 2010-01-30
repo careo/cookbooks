@@ -21,10 +21,10 @@ directory "/home/djensen" do
   not_if "test -d /home/djensen"
 end  
 
-mount "/home/djensen" do
-  device "/dev/sdj"
-  fstype "xfs"
-end
+#mount "/home/djensen" do
+#  device "/dev/sdj"
+#  fstype "xfs"
+#end
 
 directory "/home/djensen/repos" do
   owner "djensen"
