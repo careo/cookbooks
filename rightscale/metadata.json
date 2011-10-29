@@ -1,0 +1,33 @@
+{
+    "version": "0.2.0",
+    "recommendations": {
+    },
+    "maintainer": "RightScale, Inc.",
+    "suggestions": {
+    },
+    "platforms": {
+    },
+    "license": "Apache 2.0",
+    "maintainer_email": "graham@rightscale.com",
+    "conflicting": {
+    },
+    "attributes": {
+    },
+    "providing": {
+    },
+    "description": "Patches to rightscale stuff",
+    "dependencies": {
+    },
+    "recipes": {
+      "rightscale::right_popen": "Upgrades right_popen to version 1.0.11",
+      "rightscale::abuse_emacs": "Uninstall and install emacs",
+      "rightscale::abuse_xmldevel": "Uninstall and install libxml2-devel",
+      "rightscale::abuse_centos": "Uninstall and install xml stuff"
+    },
+    "replacing": {
+    },
+    "name": "rightscale",
+    "groupings": {
+    },
+    "long_description": "= DESCRIPTION:\n\nVarious RightScale specific patches and cookbooks.\n\n= REQUIREMENTS:\n\nShould be run only on RightLink enabled servers.\n\n= USAGE:\n\nCurrently provides rightscale::right_popen, which patches a bug in\nright_popen that prevented long running servers from being spawned.\n"
+  }
